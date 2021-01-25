@@ -7,6 +7,7 @@ function App() {
 
   const [isHome, setIsHome] = useState(true);
   const [path, setPath] = useState('home');
+  const [color, setColor] = useState('hero is-primary is-fullheight');
 
   useEffect(() => {
     console.log('use effect hook ran');
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <section className="hero is-primary is-fullheight">
+      <section className={color}>
         <Navbar/>
         <div className="hero-body">
           <h1 className="title">
@@ -23,6 +24,9 @@ function App() {
           <h2 className="subtitle">
             Programmer, Poet, Editor
           </h2>
+          <button className="button is-large" onClick={() => {setColor('hero is-success is-fullheight')}}>
+            Hey
+          </button>
         </div>
         <Footer/>
       </section>
