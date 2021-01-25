@@ -18,15 +18,17 @@ function App() {
       <section className={color}>
         <Navbar/>
         <div className="hero-body">
-          <h1 className="title">
-            Elias Baez
-          </h1>
-          <h2 className="subtitle">
-            Programmer, Poet, Editor
-          </h2>
-          <button className="button is-large" onClick={() => {setColor('hero is-success is-fullheight')}}>
-            Hey
-          </button>
+            <div className="container has-text-centered">
+            <h1 className="title">
+              Elias Baez
+            </h1>
+            <h2 className="subtitle">
+              Programmer, Poet, Editor
+            </h2>
+            <button className="button is-large" onClick={() => {setColor('hero is-success is-fullheight')}}>
+              Hey
+            </button>
+          </div>
         </div>
         <Footer/>
       </section>
