@@ -4,7 +4,7 @@ const LeftSupport = () => {
 
   return (
     <div>
-      <p className="is-size-6">This is an expansion of the poetic thing that I just said.</p>
+      <p className="is-size-5">This is a poem called <strong>"Skin in the Game."</strong> It has been printed in Mantis magazine, and in the Amherst College alumni magazine.</p>
     </div>
   )
 
