@@ -45,8 +45,8 @@ h1 {
 }
 
 div.columns {
-  margin-top: 1em;
   color: $dark;
+  margin-top: -1em;
 }
 
 div.column.is-four-fifths {
@@ -82,7 +82,7 @@ li a {
 img.is-rounded {
   filter: drop-shadow(18px 7px 25px $link);
   box-shadow: 0 0 8px $link inset;
-  margin-bottom: 1em;
+  margin-top: .5em;
 }
 
 img.is-rounded:hover {

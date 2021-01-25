@@ -31,10 +31,11 @@ function App() {
         <Navbar/>
         <div className={gradientSide}>
             <div className="container has-text-centered">
+            <h1 className="title">Elias Baez</h1>
               {isHome && 
               <Picture/>}
-              <h1 className="title">Elias Baez</h1>
-              <div className="columns is-variable is-7 is-vcentered">
+              
+              <div className="columns is-variable is-8 is-vcentered">
                 <div className="column is-full">
                   <div className="columns is-mobile-half">
                     <div className="column">
