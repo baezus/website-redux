@@ -29,6 +29,11 @@
 
 }
 
+.hero-foot {
+  background: transparent;
+  background-color: transparent;
+}
+
 div.columns {
   margin-top: 3em;
   color: $dark;
@@ -43,4 +48,17 @@ div.column.is-four-fifths {
 image {
   right: 0;
   
+}
+
+ul {
+  background: #4A7B96;
+  background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
+  background: -moz-linear-gradient(left, #4A7B96, #EE8695);
+  background: linear-gradient(to right, #4A7B96, #EE8695);
+  color: $dark;
+  font-weight: 600;
+}
+
+li a {
+  color: $link;
 }

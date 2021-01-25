@@ -5,8 +5,8 @@ const Footer = () => {
 
   return (
     <div className="hero-foot">
-      <nav className="tabs is-boxed is-fullwidth is-hidden">
-        <div className="container">
+      <nav className="tabs is-boxed is-fullwidth">
+        
           <ul>
             <li>
               <a>Overview</a>
@@ -24,7 +24,7 @@ const Footer = () => {
               <a>LinkedIn</a>
             </li>
           </ul>
-        </div>
+        
       </nav>
     </div>
   )
