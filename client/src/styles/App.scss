@@ -6,7 +6,6 @@
 .App {
   text-align: center;
   font-family: 'Heebo', sans-serif;
-  
 }
 
 .hero-head {
@@ -25,7 +24,6 @@
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
   background: -moz-linear-gradient(left, #4A7B96, #EE8695);
   background: linear-gradient(to right, #4A7B96, #EE8695);
-
 }
 
 .hero-foot {
@@ -36,7 +34,6 @@
 div.columns {
   margin-top: 3em;
   color: $dark;
-
 }
 
 div.column.is-four-fifths {
@@ -46,7 +43,6 @@ div.column.is-four-fifths {
 
 image {
   right: 0;
-  
 }
 
 ul.active {
@@ -55,6 +51,7 @@ ul.active {
   background: -moz-linear-gradient(right, #EE8695, #4A7B96);
   background: linear-gradient(to right, #EE8695, #4A7B96);
 }
+
 ul {
   background: #4A7B96;
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
@@ -64,18 +61,15 @@ ul {
   font-weight: 600;
 }
 
-
-
 li a {
   color: $link;
 }
 
 img.is-rounded {
   filter: drop-shadow(18px 7px 25px $link);
-  
+  margin-bottom: 1em;
 }
 
 img.is-rounded:hover {
   filter: drop-shadow(18px 7px 27px $link);
-
 }

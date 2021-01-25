@@ -9,9 +9,10 @@ $link: #ee8695;
 // $primary-dark: transparent;
 // $primary-light: transparent;
 
-$title-color: $info;
+$title-color: $dark !important;
+$subtitle-color: $success;
 $body-color: $info;
-$strong-color: $success;
+$strong-color: $link;
 
 $box-color: $dark;
 $box-background-color: $link;
@@ -21,6 +22,6 @@ $tabs-boxed-link-hover-background-color: $info;
 
 $button-color: $dark;
 $button-background-color: transparent;
-$button-border-color: $success;
+$button-border-color: $link;
 $button-hover-border-color: $info;
 $button-hover-color: $success;
