@@ -97,7 +97,7 @@ app.get("/api/user/:id", (req, res, next) => {
 
 //index
 app.get("/api/users", (req, res, next) => {
-  let sql = "select * from user"
+  let sql = "select * from baezus"
   let params = []
   db.all(sql, params, (err, rows) => {
     if (err) {
