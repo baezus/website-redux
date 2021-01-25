@@ -19,18 +19,26 @@ function App() {
         <Navbar/>
         <div className="hero-body">
             <div className="container has-text-centered">
-            <h1 className="title">
-              Elias Baez
-            </h1>
-            <h2 className="subtitle">
-              {path}
-            </h2>
-            <button className="button is-large" onClick={() => {setPath('coding')}}>
-              coding
-            </button>
-            <button className="button is-large" onClick={() => {setPath('poetry')}}>
-              poetry
-            </button>
+              <div className="columns">
+                <div className="column is-full">
+                  <h1 className="title">Elias Baez</h1>
+                  <h2 className="subtitle">{path}</h2>
+                  <div className="columns is-mobile">
+                    <div className="column">
+                      <button 
+                      className="button is-large" 
+                      onClick={() => {setPath('coding')}}>
+                        coding
+                      </button>
+                    </div>
+                    <div className="column">
+                      <button className="button is-large" onClick={() => {setPath('poetry')}}>
+                        poetry
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
         <Footer/>
