@@ -22,7 +22,11 @@ $tabs-boxed-link-hover-background-color: $info;
 
 $button-color: $info;
 $button-background-color: transparent;
-$button-border-color: $link;
+$button-border-color: transparent;
 $button-border-width: 3px;
-$button-hover-border-color: $info;
+$button-hover-border-color: $success;
 $button-hover-color: $success;
+$tabs-border-bottom-style: none;
+$tabs-boxed-link-hover-border-bottom-color: transparent;
+$tabs-boxed-link-hover-border-bottom-color: $link;
+$tabs-boxed-link-active-border-color: $link;

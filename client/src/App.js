@@ -31,7 +31,6 @@ function App() {
         <Navbar/>
         <div className={gradientSide}>
             <div className="container has-text-centered">
-            <h1 className="title">Elias Baez</h1>
               {isHome && 
               <Picture/>}
               

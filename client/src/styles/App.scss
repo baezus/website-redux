@@ -10,6 +10,8 @@
 
 nav {
   font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  color: $dark;
 }
 
 button.button {
@@ -46,7 +48,9 @@ h1 {
 
 div.columns {
   color: $dark;
-  margin-top: -1em;
+  margin-top: -.25em;
+  margin-bottom: -1.50em;
+  padding-bottom: -1.50em;
 }
 
 div.column.is-four-fifths {
@@ -72,7 +76,7 @@ ul {
   background: linear-gradient(to right, #4A7B96, #EE8695);
   color: $dark;
   font-weight: 600;
-  padding-bottom: 1em;
+  padding-bottom: .75em;
 }
 
 li a {
@@ -87,4 +91,8 @@ img.is-rounded {
 
 img.is-rounded:hover {
   filter: drop-shadow(18px 7px 27px $link);
+}
+
+.tabs:active {
+  background-color: $link;
 }

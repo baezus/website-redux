@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="http://localhost:3000">
-            Elias Baez
+            <p className="is-size-3">Elias Baez</p>
           </a>
           <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
@@ -15,7 +15,7 @@ const Navbar = () => {
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div className="navbar-menu">
+        <div className="navbar-menu is-hidden">
           <div className="navbar-end">
             <a className="navbar-item" href="http://localhost:3000" value="coding">
               Coding
