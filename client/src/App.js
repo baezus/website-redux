@@ -14,7 +14,6 @@ function App() {
   const [color, setColor] = useState('hero is-primary is-fullheight');
   const [gradientSide, setGradientSide] = useState('hero-body');
 
-
   useEffect(() => {
     console.log('use effect hook ran');
     setGradientSide('hero-body active');
