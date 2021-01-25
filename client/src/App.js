@@ -23,10 +23,13 @@ function App() {
               Elias Baez
             </h1>
             <h2 className="subtitle">
-              Programmer, Poet, Editor
+              {path}
             </h2>
-            <button className="button is-large" onClick={() => {setColor('hero is-success is-fullheight')}}>
-              Hey
+            <button className="button is-large" onClick={() => {setPath('coding')}}>
+              coding
+            </button>
+            <button className="button is-large" onClick={() => {setPath('poetry')}}>
+              poetry
             </button>
           </div>
         </div>
