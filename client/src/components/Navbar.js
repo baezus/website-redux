@@ -2,7 +2,6 @@ import React from 'react';
 
 const Navbar = () => {
 
-
   return (
       <div className="hero-head">
         <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">

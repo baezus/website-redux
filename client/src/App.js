@@ -26,13 +26,13 @@ function App() {
         <div className="hero-body">
             <div className="container has-text-centered">
               <h1 className="title">Elias Baez</h1>
-              <h2 className="subtitle">{path}</h2>
-              <div className="columns">
+              <div className="columns is-variable is-8">
                 <div className="column is-full">
                   <div className="columns is-mobile">
                     <div className="column">
 
                       {isHome &&
+                      
                       <button 
                       className="button is-large" 
                       onClick={() => {setPath('coding'); 
@@ -40,14 +40,16 @@ function App() {
 
                       {!isHome &&
                       path === 'coding' &&
-                      <LeftActive/>}
+                      
+                      <LeftActive/>
+                      }
 
                       {!isHome && 
                       path === 'poetry' && 
                       <LeftSupport/>}
 
                     </div>
-                    <div className="column">
+                    <div className="column is-hidden-mobile">
 
                       {isHome && 
                       <button className="button is-large" 
