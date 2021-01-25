@@ -6,6 +6,7 @@ import LeftActive from './components/LeftActive';
 import LeftSupport from './components/LeftSupport';
 import RightActive from './components/RightActive';
 import RightSupport from './components/RightSupport';
+import Picture from './components/Picture';
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
         <Navbar/>
         <div className={gradientSide}>
             <div className="container has-text-centered">
+              {isHome && 
+              <Picture/>}
               <h1 className="title">Elias Baez</h1>
               <div className="columns is-variable is-7 is-vcentered">
                 <div className="column is-full">
@@ -54,7 +57,7 @@ function App() {
                       <LeftSupport/>}
 
                     </div>
-                    <div className="column is-hidden-mobile">
+                    <div className="column is-hidden-mobile is-vcentered">
 
                       {isHome && 
                       <button className="button is-large" 
