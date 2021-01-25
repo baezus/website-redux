@@ -4,8 +4,8 @@ const Picture = (props) => {
 
   return (
    
-     <div className="tile is-ancestor is-justify-content-center">
-       <div className="tile is-4 is-parent">
+     <div className="tile is-ancestor is-justify-content-center is-hidden-mobile">
+       <div className="tile is-5 is-parent">
          <div className="tile is-child picture">
          <figure className="image">
           <img 

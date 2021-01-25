@@ -4,7 +4,15 @@ const RightActive = () => {
 
   return (
     <div>
-      <p className="is-size-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownsed in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p className="is-size-5">I found a book on Triangle Street -- <br/>
+      I, eighteen, was passing by. <br/>
+      Page three spelled out a unicorn <br/>
+      Spearing a poet's eye.<br/><br/>
+      Sharpie crypted context and writer.<br/>
+      I, drunkenly tripped by -- <br/>
+      Passing mirrored wound and horn <br/>
+      I could not hide in time.
+      </p>
     </div>
   )
 

@@ -4,7 +4,7 @@ const LeftSupport = () => {
 
   return (
     <div>
-      <p className="is-size-6">In the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p className="is-size-6">This is an expansion of the poetic thing that I just said.</p>
     </div>
   )
 

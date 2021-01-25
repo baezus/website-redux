@@ -57,7 +57,7 @@ function App() {
                       <LeftSupport/>}
 
                     </div>
-                    <div className="column is-hidden-mobile is-vcentered">
+                    <div className="column is-vcentered">
 
                       {isHome && 
                       <button className="button is-large" 
