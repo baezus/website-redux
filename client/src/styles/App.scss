@@ -3,9 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 @import '../../node_modules/bulma/bulma.sass';
 
+@keyframes shift_text {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .App {
   text-align: center;
   font-family: 'Heebo', sans-serif;
+
 }
 
 nav {
@@ -16,6 +22,9 @@ nav {
 
 button.button {
   font-family: 'Heebo', sans-serif;
+  animation: first-animation .75s, another-animation1s;
+  animation-name: shift_text;
+  animation-duration: 1s;
 }
 
 .hero-head {
@@ -32,6 +41,9 @@ h1 {
   background: -webkit-linear-gradient(right, #EE8695, #4A7B96);
   background: -moz-linear-gradient(right, #EE8695, #4A7B96);
   background: linear-gradient(to right, #EE8695, #4A7B96);
+  animation: first-animation 1s;
+  animation-name: shift_text;
+  animation-duration: 1s;
 }
 
 .hero-body {
@@ -39,6 +51,9 @@ h1 {
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
   background: -moz-linear-gradient(left, #4A7B96, #EE8695);
   background: linear-gradient(to right, #4A7B96, #EE8695);
+  animation: first-animation 1s;
+  animation-name: shift_text;
+  animation-duration: 1s;
 }
 
 .hero-foot {
@@ -51,6 +66,7 @@ div.columns {
   margin-top: -.25em;
   margin-bottom: -1.50em;
   padding-bottom: -1.50em;
+
 }
 
 div.column.is-four-fifths {
@@ -74,6 +90,9 @@ ul {
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
   background: -moz-linear-gradient(left, #4A7B96, #EE8695);
   background: linear-gradient(to right, #4A7B96, #EE8695);
+  animation: first-animation .75s, another-animation1s;
+  animation-name: shift_text;
+  animation-duration: 1s;
   color: $dark;
   font-weight: 600;
   padding-bottom: .75em;
@@ -81,6 +100,9 @@ ul {
 
 li a {
   color: $link;
+  animation: first-animation .75s, another-animation1s;
+  animation-name: shift_text;
+  animation-duration: 1s;
 }
 
 img.is-rounded {
@@ -96,3 +118,4 @@ img.is-rounded:hover {
 .tabs:active {
   background-color: $link;
 }
+
