@@ -36,13 +36,13 @@ function App() {
               <h1 className="title">Elias Baez</h1>
               <div className="columns is-variable is-7 is-vcentered">
                 <div className="column is-full">
-                  <div className="columns is-mobile">
+                  <div className="columns is-mobile-half">
                     <div className="column">
 
                       {isHome &&
                       
                       <button 
-                      className="button is-large is-outlined has-text-weight-bold" 
+                      className="button is-large is-outlined has-text-weight-bold is-rounded" 
                       onClick={() => {setPath('coding'); 
                       setIsHome(false)}}>coding</button>}
 
@@ -60,7 +60,7 @@ function App() {
                     <div className="column is-vcentered">
 
                       {isHome && 
-                      <button className="button is-large is-outlined has-text-weight-bold" 
+                      <button className="button is-large is-outlined has-text-weight-bold is-rounded" 
                       onClick={() => {setPath('poetry'); 
                       setIsHome(false)}}>
                         poetry

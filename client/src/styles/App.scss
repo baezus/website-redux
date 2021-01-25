@@ -8,8 +8,21 @@
   font-family: 'Heebo', sans-serif;
 }
 
+nav {
+  font-family: 'Heebo', sans-serif;
+}
+
+button.button {
+  font-family: 'Heebo', sans-serif;
+}
+
 .hero-head {
   background: transparent;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .hero-body.active{
@@ -32,7 +45,7 @@
 }
 
 div.columns {
-  margin-top: 3em;
+  margin-top: 1em;
   color: $dark;
 }
 
@@ -59,6 +72,7 @@ ul {
   background: linear-gradient(to right, #4A7B96, #EE8695);
   color: $dark;
   font-weight: 600;
+  padding-bottom: 1em;
 }
 
 li a {
@@ -67,6 +81,7 @@ li a {
 
 img.is-rounded {
   filter: drop-shadow(18px 7px 25px $link);
+  box-shadow: 0 0 8px $link inset;
   margin-bottom: 1em;
 }
 

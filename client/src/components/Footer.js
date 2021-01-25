@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const codeLinks = ['Github', 'https://github.com/baezus', 'Resume', 'https://baez.us', 'Blog', 'https://baez.us', 'Boop', 'https://baez.us'];
 const poetLinks = ['Fruitopia!', 'https://baez.us', 'Publications', 'https://baez.us', 'Patreon', 'https://patreon.com/baezus', 'Miss Bay & the Parasite', 'https://www.nocontactmag.com/miss-bay-the-parasite'];
-const homeLinks = ['Linkedin','https://www.linkedin.com/in/baezus/','Twitter','https://twitter.com/baez_us','Contact','elias@baez.us','Guestbook'];
+const homeLinks = ['Linkedin','https://www.linkedin.com/in/baezus/','Twitter','https://twitter.com/baez_us','Contact','elias@baez.us','Feedback'];
 
 
 const Footer = ({gradientSide, path}) => {
