@@ -18,7 +18,6 @@
   background: -webkit-linear-gradient(right, #EE8695, #4A7B96);
   background: -moz-linear-gradient(right, #EE8695, #4A7B96);
   background: linear-gradient(to right, #EE8695, #4A7B96);
-
 }
 
 .hero-body {
@@ -50,6 +49,12 @@ image {
   
 }
 
+ul.active {
+  background: #4A7B96;
+  background: -webkit-linear-gradient(right, #EE8695, #4A7B96);
+  background: -moz-linear-gradient(right, #EE8695, #4A7B96);
+  background: linear-gradient(to right, #EE8695, #4A7B96);
+}
 ul {
   background: #4A7B96;
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
@@ -58,6 +63,8 @@ ul {
   color: $dark;
   font-weight: 600;
 }
+
+
 
 li a {
   color: $link;

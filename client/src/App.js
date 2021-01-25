@@ -80,7 +80,7 @@ function App() {
               </div>
           </div>
         </div>
-        <Footer/>
+        <Footer gradientSide={gradientSide}/>
       </section>
     </div>
   );
