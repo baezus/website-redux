@@ -3,7 +3,7 @@ import React from 'react';
 const RightActive = () => {
 
   return (
-    <div>
+    <div className="box">
       <p className="is-size-4">I found a book on Triangle Street -- <br/>
       I, eighteen, was passing by. <br/>
       Page three spelled out a unicorn <br/>
