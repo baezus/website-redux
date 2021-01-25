@@ -42,7 +42,7 @@ function App() {
                       {isHome &&
                       
                       <button 
-                      className="button is-large" 
+                      className="button is-large is-outlined has-text-weight-bold" 
                       onClick={() => {setPath('coding'); 
                       setIsHome(false)}}>coding</button>}
 
@@ -60,7 +60,7 @@ function App() {
                     <div className="column is-vcentered">
 
                       {isHome && 
-                      <button className="button is-large" 
+                      <button className="button is-large is-outlined has-text-weight-bold" 
                       onClick={() => {setPath('poetry'); 
                       setIsHome(false)}}>
                         poetry

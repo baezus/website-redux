@@ -62,3 +62,13 @@ ul {
 li a {
   color: $link;
 }
+
+img.is-rounded {
+  filter: drop-shadow(18px 7px 25px $link);
+  
+}
+
+img.is-rounded:hover {
+  filter: drop-shadow(18px 7px 27px $link);
+
+}
