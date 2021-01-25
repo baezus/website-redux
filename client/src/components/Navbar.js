@@ -1,11 +1,13 @@
 import React from 'react';
 
 const Navbar = () => {
+
+
   return (
       <div className="hero-head">
         <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://baez.us">
+          <a className="navbar-item" href="http://localhost:3000">
             Elias Baez
           </a>
           <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -16,10 +18,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-menu">
           <div className="navbar-end">
-            <a className="navbar-item" href="https://baez.us">
-              Programming
+            <a className="navbar-item" href="http://localhost:3000" value="coding">
+              Coding
             </a>
-            <a className="navbar-item" href="https://baez.us">
+            <a className="navbar-item" href="http://localhost:3000">
               Poetry
             </a>
           </div>

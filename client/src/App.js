@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import './styles/App.scss';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import LeftActive from './components/LeftActive';
+import LeftSupport from './components/LeftSupport';
+import RightActive from './components/RightActive';
+import RightSupport from './components/RightSupport';
 
 function App() {
 
@@ -9,8 +13,10 @@ function App() {
   const [path, setPath] = useState('home');
   const [color, setColor] = useState('hero is-primary is-fullheight');
 
+
   useEffect(() => {
     console.log('use effect hook ran');
+    setIsHome(true);
   }, [])
 
   return (
@@ -19,22 +25,45 @@ function App() {
         <Navbar/>
         <div className="hero-body">
             <div className="container has-text-centered">
+              <h1 className="title">Elias Baez</h1>
+              <h2 className="subtitle">{path}</h2>
               <div className="columns">
                 <div className="column is-full">
-                  <h1 className="title">Elias Baez</h1>
-                  <h2 className="subtitle">{path}</h2>
                   <div className="columns is-mobile">
                     <div className="column">
+
+                      {isHome &&
                       <button 
                       className="button is-large" 
-                      onClick={() => {setPath('coding')}}>
-                        coding
-                      </button>
+                      onClick={() => {setPath('coding'); 
+                      setIsHome(false)}}>coding</button>}
+
+                      {!isHome &&
+                      path === 'coding' &&
+                      <LeftActive/>}
+
+                      {!isHome && 
+                      path === 'poetry' && 
+                      <LeftSupport/>}
+
                     </div>
                     <div className="column">
-                      <button className="button is-large" onClick={() => {setPath('poetry')}}>
+
+                      {isHome && 
+                      <button className="button is-large" 
+                      onClick={() => {setPath('poetry'); 
+                      setIsHome(false)}}>
                         poetry
-                      </button>
+                      </button>}
+                      
+                      {!isHome && 
+                      path === 'poetry' && 
+                      <RightActive/>}
+
+                      {!isHome && 
+                      path === 'coding' && 
+                      <RightSupport/>}
+
                     </div>
                   </div>
                 </div>
