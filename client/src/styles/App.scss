@@ -11,12 +11,21 @@
   background: transparent;
 }
 
+.hero-body.active{
+  background: #4A7B96;
+  background: -webkit-linear-gradient(right, #EE8695, #4A7B96);
+  background: -moz-linear-gradient(right, #EE8695, #4A7B96);
+  background: linear-gradient(to right, #EE8695, #4A7B96);
+}
+
 .hero-body {
   background: #4A7B96;
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
   background: -moz-linear-gradient(left, #4A7B96, #EE8695);
   background: linear-gradient(to right, #4A7B96, #EE8695);
 }
+
+
 
 div.columns {
   margin-top: 5em;

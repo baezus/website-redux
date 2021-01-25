@@ -12,18 +12,24 @@ function App() {
   const [isHome, setIsHome] = useState(true);
   const [path, setPath] = useState('home');
   const [color, setColor] = useState('hero is-primary is-fullheight');
+  const [gradientSide, setGradientSide] = useState('hero-body');
 
 
   useEffect(() => {
     console.log('use effect hook ran');
-    setIsHome(true);
+    setGradientSide('hero-body active');
+  }, [isHome])
+
+  useEffect(() => {
+    console.log('use effect hook ran');
+    setGradientSide('hero-body');
   }, [])
 
   return (
     <div className="App">
       <section className={color}>
         <Navbar/>
-        <div className="hero-body">
+        <div className={gradientSide}>
             <div className="container has-text-centered">
               <h1 className="title">Elias Baez</h1>
               <div className="columns is-variable is-8">
