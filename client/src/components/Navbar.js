@@ -23,6 +23,7 @@ const Navbar = () => {
             <a className="navbar-item" href="http://localhost:3000">
               Poetry
             </a>
+       
           </div>
         </div>
       </nav>
