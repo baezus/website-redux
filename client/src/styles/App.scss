@@ -1,10 +1,11 @@
 @charset "utf-8";
 @import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
 @import '../../node_modules/bulma/bulma.sass';
 
 .App {
   text-align: center;
-  
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .hero-head {
@@ -16,6 +17,8 @@
   background: -webkit-linear-gradient(right, #EE8695, #4A7B96);
   background: -moz-linear-gradient(right, #EE8695, #4A7B96);
   background: linear-gradient(to right, #EE8695, #4A7B96);
+  font-family: 'Hind Siliguri', sans-serif;
+
 }
 
 .hero-body {
@@ -23,10 +26,14 @@
   background: -webkit-linear-gradient(left, #4A7B96, #EE8695);
   background: -moz-linear-gradient(left, #4A7B96, #EE8695);
   background: linear-gradient(to right, #4A7B96, #EE8695);
+  font-family: 'Hind Siliguri', sans-serif;
+
 }
 
 div.columns {
   margin-top: 3em;
+  font-family: 'Hind Siliguri', sans-serif;
+
 }
 
 div.column.is-four-fifths {
