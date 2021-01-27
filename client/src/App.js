@@ -37,7 +37,7 @@ function App() {
               <div className="columns is-variable is-8 is-vcentered">
                 <div className="column is-full">
                   <div className="columns is-mobile-half">
-                    <div className="column">
+                    <div className="column is-vcentered">
 
                       {isHome &&
                       
