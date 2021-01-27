@@ -4,22 +4,22 @@ $dark: #292831;
 $success: #fbbbad;
 $link: #ee8695;
 
-//#4a7a96
-
-// $primary-dark: transparent;
-// $primary-light: transparent;
 
 $title-color: $dark !important;
+$title-hover-color: transparent;
 $subtitle-color: $success;
 $body-color: $info;
-$strong-color: $link;
+$strong-color: $success !important;
+$navbar-box-shadow-color: transparent !important;
+$navbar-item-hover-background-color: transparent !important;
+$navbar-item-active-background-color: transparent !important;
+
 
 $box-color: $dark;
 $box-background-color: $link;
 
 $tabs-toggle-link-active-background-color: transparent;
 $tabs-boxed-link-hover-background-color: $info;
-
 $button-color: $info;
 $button-background-color: transparent;
 $button-border-color: transparent;

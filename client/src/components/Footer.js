@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import Pdf from '../Baez_Resume.pdf';
 
-const codeLinks = ['Github', 'https://github.com/baezus', 'Resume', 'https://baez.us', 'Blog', 'https://baez.us', 'Boop', 'https://baez.us'];
+const codeLinks = ['Github', 'https://github.com/baezus', 'codewars', 'https://www.codewars.com/users/baezus', 'Blog', 'https://dev.to/baezus/setting-up-a-react-bulma-app-using-sass-3lnk', 'Boop', 'https://baez.us'];
 const poetLinks = ['Fruitopia!', 'https://baez.us', 'Publications', 'https://baez.us', 'Patreon', 'https://patreon.com/baezus', 'Miss Bay & the Parasite', 'https://www.nocontactmag.com/miss-bay-the-parasite'];
-const homeLinks = ['Linkedin','https://www.linkedin.com/in/baezus/','Twitter','https://twitter.com/baez_us','Contact','elias@baez.us','Feedback'];
+const homeLinks = ['Linkedin','https://www.linkedin.com/in/baezus/','Twitter','https://twitter.com/baez_us','Contact','mailto: elias@baez.us','Feedback'];
 
 
 const Footer = ({gradientSide, path}) => {

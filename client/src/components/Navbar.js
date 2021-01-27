@@ -1,4 +1,5 @@
 import React from 'react';
+import Pdf from '../Baez_Resume.pdf';
 
 const Navbar = () => {
 
@@ -15,15 +16,11 @@ const Navbar = () => {
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div className="navbar-menu is-hidden">
-          <div className="navbar-end">
-            <a className="navbar-item" href="http://localhost:3000" value="coding">
-              Coding
+        <div className="navbar-menu">
+          <div className="navbar-start">
+            <a className="navbar-item" href={Pdf} value="coding" target="_blank" referrer="noreferrer">
+              Resume
             </a>
-            <a className="navbar-item" href="http://localhost:3000">
-              Poetry
-            </a>
-       
           </div>
         </div>
       </nav>
