@@ -63,12 +63,12 @@ const Footer = ({gradientSide, path}) => {
                 target="_blank" 
                 rel="noreferrer">{hyperLinks[4]}</a>
             </li>
-            <li>
+            {/* <li>
               <a 
                 href={hyperLinks[7]}              
                 target="_blank" 
                 rel="noreferrer">{hyperLinks[6]}</a>
-            </li>
+            </li> */}
           </ul>
       </nav>
     </div>

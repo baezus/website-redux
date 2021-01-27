@@ -70,6 +70,9 @@ div.columns {
   margin-top: -.25em;
   margin-bottom: -1.50em;
   padding-bottom: -1.50em;
+  animation: first-animation 1s, another-animation 1.5s;
+  animation-name: shift_text;
+  animation-duration: 1s;
 
 }
 
@@ -123,3 +126,8 @@ img.is-rounded:hover {
   background-color: $link;
 }
 
+p {
+  animation: first-animation 1s, another-animation 1.5s;
+  animation-name: shift_text;
+  animation-duration: 1s;
+}
