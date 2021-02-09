@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Pdf from '../Baez_Resume.pdf';
 
-const codeLinks = ['Github', 'https://github.com/baezus', 'codewars', 'https://www.codewars.com/users/baezus', 'Blog', 'https://dev.to/baezus/setting-up-a-react-bulma-app-using-sass-3lnk', 'Boop', 'https://baez.us'];
+const codeLinks = ['Github', 'https://github.com/baezus', 'Hash Server', 'https://github.com/baezus/hash_server', 'Blog', 'https://dev.to/baezus/setting-up-a-react-bulma-app-using-sass-3lnk', 'Boop', 'https://baez.us'];
 const poetLinks = ['Miss Bay & The Parasite', 'https://www.nocontactmag.com/miss-bay-the-parasite', 'I wanna tutor Katy Perry', 'https://issuu.com/chris_talbot/docs/bkvol11issue4fall', 'Patreon', 'https://patreon.com/baezus', 'Miss Bay & the Parasite', 'https://www.nocontactmag.com/miss-bay-the-parasite'];
 const homeLinks = ['Linkedin','https://www.linkedin.com/in/baezus/','Twitter','https://twitter.com/baez_us','Contact','mailto: elias@baez.us','Feedback'];
 
